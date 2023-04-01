@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Anton', sans-serif;
+  }
+
+  body {
+    background-color: rgb(6, 6, 39);
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+    align-items: center;
+    
+  }
+
+  p {
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left: 30px;
+    margin-top: 20px;
+    
+  }
+
+  img {
+    cursor: pointer;
+  }
+

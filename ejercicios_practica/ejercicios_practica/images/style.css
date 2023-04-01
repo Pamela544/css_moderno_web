@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .father {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.726);
+  }
+
+  
+  header > nav > ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .interactable {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+  }
+
+  .interactable:hover {
+    padding: 10px;
+    border-bottom: 3px solid #c23469;
+  }
+
+  .active {
+    cursor: pointer;
+  }
+
+  .active:hover {
+    padding: 10px;
+
+
+
+    
+  }
+
+
